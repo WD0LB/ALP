@@ -1,0 +1,51 @@
+h1 {
+	color: red;
+}
+.center {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div_container {
+	width: 100%;
+	height: fit-content;
+	color: black;
+	background: orange;
+	flex-direction: column;
+}
+#div_c_header, #years {
+	width: 100%;
+    height: 9vh;
+    background: green;
+    margin: auto;
+}
+.div_c_row {
+	width: 100%;
+	height: 9vh;
+}
+.div_c_h {
+	background: #9b9292;
+	flex: 1;
+	height: inherit;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.div_c_h_1_time{
+	background: aliceblue;
+    height: inherit;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.div_c_h_1_time div {
+	margin: auto;
+}
+
+#div_c_h_3, .div_c_h_3 {
+	background: #d8d8d8;
+	flex: 2;
+	height: inherit;
+}
